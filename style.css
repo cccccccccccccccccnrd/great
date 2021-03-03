@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-left: 1px solid silver;
+}
+
+::-webkit-scrollbar-thumb {
+  background: silver;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: silver;
+  background: black;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: normal;
+  text-align: center;
+}
+
+a, a:visited {
+  color: silver;
+  text-decoration: none;
+  font-size: 1.5em;
+  filter: blur(1.5px);
+}
+
+a:hover {
+  filter: blur(0px);
+}
+
+video {
+  max-width: 100%;
+}
+
+video:focus {
+  outline: 0;
+}
+
+.c {
+  max-width: 600px;
+}
